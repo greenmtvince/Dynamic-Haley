@@ -1,0 +1,13 @@
+{
+    "Name": "Dynamic Haley",
+    "Author": "greenmtvince",
+    "Version": "1.0.0",
+    "Description": "Makes Haley more of a dynamic and interesting character. Includes a new schedule and dialog.",
+    "UniqueID": "greenmtvince.DynamicHaley",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+      "MinimumVersion": "1.9.2"
+    }
+}
