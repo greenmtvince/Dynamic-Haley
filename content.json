@@ -3,9 +3,10 @@
     "Changes": [
         {
             "Action": "EditData",
-            "Target": "Characters/Schedules/Haley",
+            "Target": "Characters/schedules/Haley",
             "Entries": {
-                "Fri": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1600 HaleyHouse 8 7 1/1810 Saloon 20 19 3/2230 HaleyHouse 1 5 3 haley_sleep"
+                "Fri": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1600 HaleyHouse 8 7 1/1810 Saloon 20 19 3/2230 HaleyHouse 1 5 3 haley_sleep",
+                "marriage_Fri": "1730 Saloon 20 19 3/2110 BusStop -1 23 3"
             }
         },
         {
@@ -13,11 +14,11 @@
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
                 "Saloon": "I come here on Fridays, because it's probably the most exciting thing in this town.$s",
-                "Saloon2": "The city used to have dozens of places like this.$u",
-                "Saloon4": "Fancy seeing you here, Farmer.$neutral",
+                "Saloon2": "Zuzu city used to have dozens of places like this.$u",
+                "Saloon4": "Fancy seeing you here, farmer boy.^Fancy seeing you here, farmer girl.$n",
                 "Saloon6": "I love that almost everyone in town is here on Friday.  It's a lot of fun!$h",
-                "Saloon8": "I'm starting to think that you might come on Friday's to see somewhere here...$l",
-                "Saloon10": "I hope I'll be dancing here with my partner like Demetrius and Robin someday...$l"
+                "Saloon8": "I'm starting to think that you might come on Fridays to see someone here...$l",
+                "Saloon10": "I think we should dance tonight$h#$b#@, will you dance with me?$l"
             }
         },
         {
