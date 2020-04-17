@@ -6,7 +6,8 @@
             "Target": "Strings/schedules/Haley",
             "Entries": {
                 "spring_Wed_6.000": "Granny Evelyn is teaching me about growing plants.",
-                "summer_Wed_6.000": "There's so much to learn about gardening.#$b#Maybe I'll be a farmer someday too!$h"
+                "summer_Wed_6.000": "There's so much to learn about gardening.#$b#Maybe I'll be a farmer someday too!$h",
+                "marriage_Mon.001": "Hi, honey! I'm just catching up on all the news in town with the other wives.#$b#I'll see you at home for dinner tonight."
             }
         },
         {
@@ -14,9 +15,10 @@
             "Target": "Characters/schedules/Haley",
             "Entries": {
                 "Fri": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1600 HaleyHouse 8 7 1/1810 Saloon 20 19 3/2230 HaleyHouse 1 5 3 haley_sleep",
+                "marriage_Mon": "930 HaleyHouse 4 15 2 \"Strings\\schedules\\Haley:marriage_Mon.000\"/1330 Town 24 72 3 \"Strings\\schedules\\Haley:marriage_Mon.001\"/1540 BusStop -1 23 3",
                 "marriage_Fri": "1730 Saloon 20 19 3/2110 BusStop -1 23 3",
                 "spring_Wed_6": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1300 Town 35 79 0 \"Strings\\schedules\\Haley:spring_Wed_6.000\"/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-                "summer_Wed_6": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 20 59 2\"Strings\\schedules\\Haley:summer_Wed_6.000\"/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep"
+                "summer_Wed_6": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 19 63 2 \"Strings\\schedules\\Haley:summer_Wed_6.000\"/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep"
             }
         },
         {
