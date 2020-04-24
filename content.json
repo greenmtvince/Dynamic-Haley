@@ -1,6 +1,24 @@
 {
-    "Format": "1.11.0",
+    "Format": "1.13.0",
     "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/HaleySwim_Pink.png",
+            "When":
+            {
+                "LocationName": "BathHouse_Pool"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Portraits/Haley",
+            "FromFile": "assets/HaleySwim_Portrait.png",
+            "When":
+            {
+                "LocationName": "BathHouse_Pool"
+            }
+        },
         {
             "Action": "EditData",
             "Target": "Strings/schedules/Haley",
@@ -18,7 +36,9 @@
                 "marriage_Mon": "930 HaleyHouse 4 15 2 \"Strings\\schedules\\Haley:marriage_Mon.000\"/1330 Town 24 72 3 \"Strings\\schedules\\Haley:marriage_Mon.001\"/1540 BusStop -1 23 3",
                 "marriage_Fri": "1730 Saloon 20 19 3/2110 BusStop -1 23 3",
                 "spring_Wed_6": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1300 Town 35 79 0 \"Strings\\schedules\\Haley:spring_Wed_6.000\"/1630 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-                "summer_Wed_6": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 19 63 2 \"Strings\\schedules\\Haley:summer_Wed_6.000\"/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep"
+                "summer_Wed_6": "840 HaleyHouse 6 5 0/930HaleyHouse 6 5 0 HaleyHouse 8 7 1/1030 Beach 19 7 2/1330 Town 19 63 0 \"Strings\\schedules\\Haley:summer_Wed_6.000\"/1700 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+                "winter_Wed": "840 HaleyHouse 6 5 0/900 BathHouse_WomensLocker 10 23 0/1200 BathHouse_Pool 14 9 2/1300 BathHouse_Pool 10 12 2 square_5_5/1500 BathHouse_Pool 14 9 2/1600 BathHouse_WomensLocker 10 23 0/1730 HaleyHouse 6 5 0/2230 HaleyHouse 1 5 3 haley_sleep"    
+            
             }
         },
         {
@@ -32,11 +52,6 @@
                 "Saloon8": "I'm starting to think that you might come on Fridays to see someone here...$l",
                 "Saloon10": "I think we should dance tonight.$h#$b#@, will you dance with me?$l"
             }
-        },
-        {
-            "Action": "Load",
-            "Target": "Maps/Town",
-            "FromFile": "assets/town.tbin"
         }
     ]
  }
