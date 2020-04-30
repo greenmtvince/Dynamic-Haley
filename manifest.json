@@ -3,9 +3,9 @@
   "Author": "greenmtvince",
   "Version": "1.0.0",
   "Description": "Makes Haley more of a dynamic and interesting character. Includes a new schedule and dialog.",
-  "UniqueID": "Witchdoctor26.SocialHaley",
+  "UniqueID": "Greenmtvince.SocialHaley",
   "MinimumApiVersion": "3.2.0",
-  "UpdateKeys": [],
+  "UpdateKeys": ["Nexus:5919"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher", 
     "MinimumVersion": "1.9.2"
